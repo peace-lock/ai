@@ -4,5 +4,5 @@ layout: home
 
 # Welcome
 
-[English Version](en/)
-[Spanish Version](es/)
+[English Version](en/main.html)
+[Spanish Version](es/main.html)
