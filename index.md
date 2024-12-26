@@ -1,5 +1,3 @@
-YAML
-
 ---
 layout: home
 ---
