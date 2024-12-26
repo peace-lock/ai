@@ -4,6 +4,7 @@ description: Your site description
 baseurl: "" # If your site is in a subdirectory, put it here (e.g., /blog)
 url: "" # Your site's full URL
 
+mathjax: false
 languages: ["en", "es", "zh", "hi", "ar", "pt", "bn", "ru", "ja", "pa", "de", "fr", "ko", "tr", "it", "th", "pl", "nl", "ur", "vi"]
 default_lang: "en"
 language_names:
