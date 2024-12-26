@@ -27,13 +27,19 @@ toc:
 # Search settings (optional but recommended)
 search:
     enabled: true
-    
+
+sharing:
+  facebook: false
+  twitter: false
+  github: false
+  all: false    
+  
 # Optional tracking settings
 tracker:
   google_analytics: "" # Your GA key if you want analytics
 
 # Optional comment settings
-disqushandler: "" # Your Disqus shortname if you want comments
+disqushandler: false # Your Disqus shortname if you want comments
 
 # Optional style settings
 syntax_highlighter_style: colorful
