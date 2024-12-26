@@ -1,2 +1,60 @@
-title: Referral
+# Site settings
+title: Referrals
+description: Your site description
+baseurl: "" # If your site is in a subdirectory, put it here (e.g., /blog)
+url: "" # Your site's full URL
+
+# Theme settings
 remote_theme: sighingnow/jekyll-gitbook
+
+# Build settings
+markdown: kramdown
+git_branch: master
+
+# Plugin settings
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-toc
+
+# Table of contents settings
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
+
+# Search settings (optional but recommended)
+search:
+    enabled: true
+    
+# Optional tracking settings
+tracker:
+  google_analytics: "" # Your GA key if you want analytics
+
+# Optional comment settings
+disqushandler: "" # Your Disqus shortname if you want comments
+
+# Optional style settings
+syntax_highlighter_style: colorful
+
+# Collections (for organizing content)
+collections:
+  pages:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+
+# Optional font settings (you can customize these later)
+extra_css:
+  - assets/gitbook/custom.css
+
+# Navigation settings (optional)
+nav:
+  - home: /
+  - about: /about
+
+# Optional - control collection order in sidebar
+ordered_collections:
+  - pages
+  - posts
